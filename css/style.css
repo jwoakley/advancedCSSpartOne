@@ -2,7 +2,6 @@
    Global CSS Reset
 ====================================== */
   * {
-  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +10,7 @@
   /* ====================================
      base styles
     ==================================*/
+
 body {
   min-height: 100vh;
   width: 100%;
@@ -28,6 +28,33 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   border-bottom: 3px double white;
+}
+
+h1 {
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  text-transform: uppercase;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+}
+h2 {
+  text-transform: uppercase;
+  padding-bottom: 2.5%;
+  text-align: start;
+  margin-left: 10%;
+}
+
+h4 {
+  background-color: white;
+  color: #0000ff;
+  font-size: 2em;
+  border-top: 1px solid #0000ff;
+  border-bottom: 1px solid #0000ff;
+  padding: .5%;
+  padding-left: 10%;
+  margin-bottom: 5%;
+  text-align: start;
 }
 
 #start {
@@ -63,32 +90,6 @@ a:hover {
   color: #0000FF;
   border: 1px solid #0000FF;
   background-color: white;
-}
-
-h1 {
-  font-family: "futura-pt-bold", sans-serif;
-  font-weight: 700;
-  font-size: 4em;
-  text-transform: uppercase;
-  margin-top: 2.5%;
-  margin-bottom: 5%;
-}
-h2 {
-  text-transform: uppercase;
-  padding-bottom: 2.5%;
-  text-align: start;
-  margin-left: 10%;
-}
-h4 {
-  background-color: white;
-  color: #0000ff;
-  font-size: 2em;
-  border-top: 1px solid #0000ff;
-  border-bottom: 1px solid #0000ff;
-  padding: .5%;
-  padding-left: 10%;
-  margin-bottom: 5%;
-  text-align: start;
 }
 
 
