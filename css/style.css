@@ -42,12 +42,14 @@ body {
   text-align: start;
   width: 50%;
   margin-right: 2%;
+  margin-bottom: 2.5%;
 }
 
 .columnTwo {
   text-align: start;
   width: 50%;
   margin-left: 2%;
+  margin-bottom: 2.5%;
   padding: 3%;
   border: 3px double #0000ff;
   background-color: white;
@@ -123,6 +125,16 @@ a:hover {
   color: #0000FF;
   border: 1px solid #0000FF;
   background-color: white;
+}
+
+.button {
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
 }
 
 code {
