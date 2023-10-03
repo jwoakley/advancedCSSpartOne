@@ -108,11 +108,11 @@ a {
   letter-spacing: .15em;
   color: white;
   border: 1px solid white;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 5px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 
 a:hover {
@@ -126,6 +126,8 @@ a:hover {
   border: 1px solid #0000FF;
   background-color: white;
 }
+
+
 
 .button {
   margin-top: 5%;
@@ -152,5 +154,22 @@ ul {
 li {
   margin-bottom: 4%;
 }
+
+#buggy {
+  width: 25%;
+  left: 0%;
+  transition-duration: 4s;
+}
+
+#buggy:hover {
+  transform: rotate(-9000deg) scale(.25) ;
+  -webkit-transform: rotate(-9000deg) scale(.25) translate(2000px, 2000px);
+  -moz-transform: rotate(-9000deg) scale(.25) translate(1000px, 500px);
+  -ms-transform: rotate(-9000deg) scale(.25) translate(1000px, 500px);
+  -o-transform: rotate(-9000deg) scale(.25) translate(1000px, 500px);
+}
+
+
+
 
 
